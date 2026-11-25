@@ -34,6 +34,11 @@ def style_base_layout():
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Climate+Crisis:YEAR@1979&family=Outfit:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+  
+  MainMenu,footer,header{
+  visibility:hidden;
+  }
+  
   .stApp{
   background:#5865F2
   }
@@ -56,21 +61,21 @@ def style_base_layout():
   font-family:'Outfit',sans-serif;
   }
   button[kind="primary"]{
-  background:#5865F2 !important;
+  background-color:#5865F2 !important;
   color:white!important;
   padding:10px 20px !important;
   border: none !important;
   transition: transform 0.25s ease-in-out!important;
   }
   button[kind="secondary"]{
-  background:#EB459E !important;
+  background-color:#EB459E !important;
   color:white!important;
   padding:10px 20px !important;
   border: none !important;
   transition: transform 0.25s ease-in-out!important;
   }
   button[kind="tertiary"]{
-  background:black !important;
+  background-color:black !important;
   color:white!important;
   padding:10px 20px !important;
   border: none !important;
